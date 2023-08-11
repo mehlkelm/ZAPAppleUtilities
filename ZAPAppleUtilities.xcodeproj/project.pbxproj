@@ -3,48 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F80A856221C50B1000B5771B /* WKWebViewUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A856121C50B1000B5771B /* WKWebViewUtilities.swift */; };
-		F80A856821C5B0F500B5771B /* UIBarButtonItemUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A856721C5B0F500B5771B /* UIBarButtonItemUtilities.swift */; };
-		F80B9B6022A4ED1200E4EC88 /* UIImageUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B9B5F22A4ED1200E4EC88 /* UIImageUtilities.swift */; };
-		F810493C21E6921F00CE6787 /* UIViewControllerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810493B21E6921F00CE6787 /* UIViewControllerUtilities.swift */; };
-		F817E6AC25B6CD4100DF8EE5 /* UIViewUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817E6AB25B6CD4100DF8EE5 /* UIViewUtilities.swift */; };
-		F81C34F7268F026C00D0FF9B /* CVPixelBufferUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C34F6268F026C00D0FF9B /* CVPixelBufferUtilities.swift */; };
 		F82530892549C97F00810F6C /* DataUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82530882549C97F00810F6C /* DataUtilities.swift */; };
 		F82A966F274D1CC300016848 /* FileManagerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A966E274D1CC300016848 /* FileManagerUtilities.swift */; };
-		F83362CE238E519D00830DBE /* UITableViewUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83362CD238E519D00830DBE /* UITableViewUtilities.swift */; };
-		F841C33E264919E5001DF01B /* UIStoryboardSegueUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F841C33D264919E5001DF01B /* UIStoryboardSegueUtilities.swift */; };
 		F84C9D78227B34EF00ECAC0C /* URLResponseUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C9D77227B34EF00ECAC0C /* URLResponseUtilities.swift */; };
 		F8703DF528042AF400B23263 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8703DF428042AF400B23263 /* NetworkCheck.swift */; };
 		F880D7FE2993E769004C54F8 /* ZAPBuildCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F880D7FD2993E769004C54F8 /* ZAPBuildCoordinator.swift */; };
-		F88852FE22A904DD00B5BE6E /* UIButtonUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88852FD22A904DD00B5BE6E /* UIButtonUtilities.swift */; };
 		F89D8CCD220EEF4800DE61CA /* ad_server_domains.txt in Resources */ = {isa = PBXBuildFile; fileRef = F89D8CCC220EEF4800DE61CA /* ad_server_domains.txt */; };
-		F8A349A0237E7D9800D6C5E2 /* ZAPClickableTableViewTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A3499F237E7D9800D6C5E2 /* ZAPClickableTableViewTextView.swift */; };
-		F8AC239623C23C1400820A53 /* UISplitViewControllerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC239523C23C1400820A53 /* UISplitViewControllerUtilities.swift */; };
-		F8AC29B922AB1C92009E4D2E /* UIColorUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC29B822AB1C92009E4D2E /* UIColorUtilities.swift */; };
 		F8B215E921B959B3002B6210 /* NSAttributedStringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B215E821B959B3002B6210 /* NSAttributedStringUtilities.swift */; };
 		F8B2B64C2677798C008A96C3 /* ZAPStoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2B64B2677798C008A96C3 /* ZAPStoreCoordinator.swift */; };
 		F8B53B04228933B8005BB95B /* URLSessionUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B53B03228933B8005BB95B /* URLSessionUtilities.swift */; };
-		F8C2B33A2196E02A00D42440 /* ZAPFoundationUIKitUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C2B3302196E02A00D42440 /* ZAPFoundationUIKitUtilities.framework */; };
+		F8C2B33A2196E02A00D42440 /* ZAPAppleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C2B3302196E02A00D42440 /* ZAPAppleUtilities.framework */; };
 		F8C2B33F2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B33E2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.swift */; };
 		F8C2B34D2196E0C900D42440 /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B34A2196E0C800D42440 /* StringUtilities.swift */; };
 		F8C2B34E2196E0C900D42440 /* NSRegularExpressionUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B34B2196E0C800D42440 /* NSRegularExpressionUtilities.swift */; };
 		F8C2B34F2196E0C900D42440 /* URLUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B34C2196E0C800D42440 /* URLUtilities.swift */; };
-		F8C2B35B2197042900D42440 /* ZAPStaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B35A2197042900D42440 /* ZAPStaticTableViewController.swift */; };
 		F8C2B3732198C50200D42440 /* DateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B3722198C50200D42440 /* DateUtilities.swift */; };
 		F8C56CD621C26C7000F1921E /* BundleUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C56CD521C26C7000F1921E /* BundleUtilities.swift */; };
 		F8C90071298D3D4C00317D64 /* ZAPStore2Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C90070298D3D4C00317D64 /* ZAPStore2Coordinator.swift */; };
-		F8CD2D2E224CCDA000F01EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD2D2D224CCDA000F01EDE /* AppDelegate.swift */; };
-		F8CD2D33224CCDA000F01EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CD2D31224CCDA000F01EDE /* Main.storyboard */; };
-		F8CD2D35224CCDA400F01EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CD2D34224CCDA400F01EDE /* Assets.xcassets */; };
-		F8CD2D38224CCDA400F01EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CD2D36224CCDA400F01EDE /* LaunchScreen.storyboard */; };
-		F8CD2D3E224D21E300F01EDE /* ZAPStaticDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD2D3D224D21E300F01EDE /* ZAPStaticDemoController.swift */; };
-		F8CD2D40224D22A800F01EDE /* ZAPFoundationUIKitUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C2B3302196E02A00D42440 /* ZAPFoundationUIKitUtilities.framework */; };
 		F8CD80BA22B247250025B1A8 /* ZAPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD80B922B247250025B1A8 /* ZAPError.swift */; };
-		F8E32BAD22572D01000D51E5 /* DeviceUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E32BAC22572D01000D51E5 /* DeviceUtilities.swift */; };
 		F8EC06252325181E00392801 /* ArrayUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC06242325181E00392801 /* ArrayUtilities.swift */; };
 		F8F92246272007FE0076B564 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F92245272007FE0076B564 /* Keychain.swift */; };
 		F8FB3687219B50A3003E02B1 /* URLRequestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FB3686219B50A3003E02B1 /* URLRequestUtilities.swift */; };
@@ -75,50 +55,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F80A856121C50B1000B5771B /* WKWebViewUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewUtilities.swift; sourceTree = "<group>"; };
-		F80A856721C5B0F500B5771B /* UIBarButtonItemUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemUtilities.swift; sourceTree = "<group>"; };
-		F80B9B5F22A4ED1200E4EC88 /* UIImageUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageUtilities.swift; sourceTree = "<group>"; };
-		F810493B21E6921F00CE6787 /* UIViewControllerUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerUtilities.swift; sourceTree = "<group>"; };
-		F817E6AB25B6CD4100DF8EE5 /* UIViewUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewUtilities.swift; sourceTree = "<group>"; };
-		F81C34F6268F026C00D0FF9B /* CVPixelBufferUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVPixelBufferUtilities.swift; sourceTree = "<group>"; };
 		F82530882549C97F00810F6C /* DataUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUtilities.swift; sourceTree = "<group>"; };
 		F82A966E274D1CC300016848 /* FileManagerUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerUtilities.swift; sourceTree = "<group>"; };
-		F83362CD238E519D00830DBE /* UITableViewUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewUtilities.swift; sourceTree = "<group>"; };
-		F841C33D264919E5001DF01B /* UIStoryboardSegueUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardSegueUtilities.swift; sourceTree = "<group>"; };
 		F84C9D77227B34EF00ECAC0C /* URLResponseUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLResponseUtilities.swift; sourceTree = "<group>"; };
 		F8703DF428042AF400B23263 /* NetworkCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCheck.swift; sourceTree = "<group>"; };
 		F880D7FD2993E769004C54F8 /* ZAPBuildCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZAPBuildCoordinator.swift; sourceTree = "<group>"; };
-		F88852FD22A904DD00B5BE6E /* UIButtonUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonUtilities.swift; sourceTree = "<group>"; };
 		F89D8CCC220EEF4800DE61CA /* ad_server_domains.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ad_server_domains.txt; sourceTree = "<group>"; };
-		F8A3499F237E7D9800D6C5E2 /* ZAPClickableTableViewTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAPClickableTableViewTextView.swift; sourceTree = "<group>"; };
-		F8AC239523C23C1400820A53 /* UISplitViewControllerUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISplitViewControllerUtilities.swift; sourceTree = "<group>"; };
-		F8AC29B822AB1C92009E4D2E /* UIColorUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorUtilities.swift; sourceTree = "<group>"; };
 		F8B215E821B959B3002B6210 /* NSAttributedStringUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringUtilities.swift; sourceTree = "<group>"; };
 		F8B2B64B2677798C008A96C3 /* ZAPStoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAPStoreCoordinator.swift; sourceTree = "<group>"; };
-		F8B2B663267780A8008A96C3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
-		F8B2B664267780A8008A96C3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		F8B2B669267780BA008A96C3 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F8B2B66A267780BB008A96C3 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B53B03228933B8005BB95B /* URLSessionUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionUtilities.swift; sourceTree = "<group>"; };
-		F8C2B3302196E02A00D42440 /* ZAPFoundationUIKitUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZAPFoundationUIKitUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C2B3302196E02A00D42440 /* ZAPAppleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZAPAppleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C2B3342196E02A00D42440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8C2B3392196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZAPFoundationUIKitUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C2B3392196E02A00D42440 /* ZAPAppleUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZAPAppleUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C2B33E2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAPFoundationUIKitUtilitiesTests.swift; sourceTree = "<group>"; };
 		F8C2B3402196E02A00D42440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8C2B34A2196E0C800D42440 /* StringUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtilities.swift; sourceTree = "<group>"; };
 		F8C2B34B2196E0C800D42440 /* NSRegularExpressionUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRegularExpressionUtilities.swift; sourceTree = "<group>"; };
 		F8C2B34C2196E0C800D42440 /* URLUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLUtilities.swift; sourceTree = "<group>"; };
-		F8C2B35A2197042900D42440 /* ZAPStaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAPStaticTableViewController.swift; sourceTree = "<group>"; };
 		F8C2B3722198C50200D42440 /* DateUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtilities.swift; sourceTree = "<group>"; };
 		F8C56CD521C26C7000F1921E /* BundleUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleUtilities.swift; sourceTree = "<group>"; };
 		F8C90070298D3D4C00317D64 /* ZAPStore2Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZAPStore2Coordinator.swift; sourceTree = "<group>"; };
-		F8CD2D2B224CCDA000F01EDE /* ZAPStaticTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZAPStaticTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8CD2D2D224CCDA000F01EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8CD2D34224CCDA400F01EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8CD2D39224CCDA400F01EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8CD2D3D224D21E300F01EDE /* ZAPStaticDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAPStaticDemoController.swift; sourceTree = "<group>"; };
 		F8CD80B922B247250025B1A8 /* ZAPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAPError.swift; sourceTree = "<group>"; };
-		F8E32BAC22572D01000D51E5 /* DeviceUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtilities.swift; sourceTree = "<group>"; };
 		F8EC06242325181E00392801 /* ArrayUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayUtilities.swift; sourceTree = "<group>"; };
 		F8F92245272007FE0076B564 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		F8FB3686219B50A3003E02B1 /* URLRequestUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestUtilities.swift; sourceTree = "<group>"; };
@@ -137,15 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8C2B33A2196E02A00D42440 /* ZAPFoundationUIKitUtilities.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8CD2D28224CCDA000F01EDE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8CD2D40224D22A800F01EDE /* ZAPFoundationUIKitUtilities.framework in Frameworks */,
+				F8C2B33A2196E02A00D42440 /* ZAPAppleUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,9 +104,8 @@
 		F8C2B3262196E02A00D42440 = {
 			isa = PBXGroup;
 			children = (
-				F8C2B3322196E02A00D42440 /* ZAPFoundationUIKitUtilities */,
-				F8C2B33D2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests */,
-				F8CD2D2C224CCDA000F01EDE /* ZAPStaticTableViewDemo */,
+				F8C2B3322196E02A00D42440 /* ZAPAppleUtilities */,
+				F8C2B33D2196E02A00D42440 /* ZAPAppleUtilitiesTests */,
 				F8C2B3312196E02A00D42440 /* Products */,
 				F8CD2D3F224D22A800F01EDE /* Frameworks */,
 			);
@@ -166,23 +114,20 @@
 		F8C2B3312196E02A00D42440 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8C2B3302196E02A00D42440 /* ZAPFoundationUIKitUtilities.framework */,
-				F8C2B3392196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.xctest */,
-				F8CD2D2B224CCDA000F01EDE /* ZAPStaticTableViewDemo.app */,
+				F8C2B3302196E02A00D42440 /* ZAPAppleUtilities.framework */,
+				F8C2B3392196E02A00D42440 /* ZAPAppleUtilitiesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8C2B3322196E02A00D42440 /* ZAPFoundationUIKitUtilities */ = {
+		F8C2B3322196E02A00D42440 /* ZAPAppleUtilities */ = {
 			isa = PBXGroup;
 			children = (
 				F8C2B3342196E02A00D42440 /* Info.plist */,
 				F8EC06242325181E00392801 /* ArrayUtilities.swift */,
 				F8C56CD521C26C7000F1921E /* BundleUtilities.swift */,
-				F81C34F6268F026C00D0FF9B /* CVPixelBufferUtilities.swift */,
 				F82530882549C97F00810F6C /* DataUtilities.swift */,
 				F8C2B3722198C50200D42440 /* DateUtilities.swift */,
-				F8E32BAC22572D01000D51E5 /* DeviceUtilities.swift */,
 				F82A966E274D1CC300016848 /* FileManagerUtilities.swift */,
 				F8F92245272007FE0076B564 /* Keychain.swift */,
 				F8703DF428042AF400B23263 /* NetworkCheck.swift */,
@@ -190,51 +135,26 @@
 				F8B215E821B959B3002B6210 /* NSAttributedStringUtilities.swift */,
 				F8C2B34B2196E0C800D42440 /* NSRegularExpressionUtilities.swift */,
 				F8C2B34A2196E0C800D42440 /* StringUtilities.swift */,
-				F80A856721C5B0F500B5771B /* UIBarButtonItemUtilities.swift */,
-				F88852FD22A904DD00B5BE6E /* UIButtonUtilities.swift */,
-				F8AC29B822AB1C92009E4D2E /* UIColorUtilities.swift */,
-				F80B9B5F22A4ED1200E4EC88 /* UIImageUtilities.swift */,
-				F8AC239523C23C1400820A53 /* UISplitViewControllerUtilities.swift */,
-				F841C33D264919E5001DF01B /* UIStoryboardSegueUtilities.swift */,
-				F83362CD238E519D00830DBE /* UITableViewUtilities.swift */,
-				F810493B21E6921F00CE6787 /* UIViewControllerUtilities.swift */,
-				F817E6AB25B6CD4100DF8EE5 /* UIViewUtilities.swift */,
 				F8FB3686219B50A3003E02B1 /* URLRequestUtilities.swift */,
 				F84C9D77227B34EF00ECAC0C /* URLResponseUtilities.swift */,
 				F8B53B03228933B8005BB95B /* URLSessionUtilities.swift */,
 				F8C2B34C2196E0C800D42440 /* URLUtilities.swift */,
-				F80A856121C50B1000B5771B /* WKWebViewUtilities.swift */,
-				F8A3499F237E7D9800D6C5E2 /* ZAPClickableTableViewTextView.swift */,
 				F8CD80B922B247250025B1A8 /* ZAPError.swift */,
-				F8C2B35A2197042900D42440 /* ZAPStaticTableViewController.swift */,
 				F8B2B64B2677798C008A96C3 /* ZAPStoreCoordinator.swift */,
 				F8C90070298D3D4C00317D64 /* ZAPStore2Coordinator.swift */,
 				F880D7FD2993E769004C54F8 /* ZAPBuildCoordinator.swift */,
 				F89D8CCC220EEF4800DE61CA /* ad_server_domains.txt */,
 			);
-			path = ZAPFoundationUIKitUtilities;
+			path = ZAPAppleUtilities;
 			sourceTree = "<group>";
 		};
-		F8C2B33D2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests */ = {
+		F8C2B33D2196E02A00D42440 /* ZAPAppleUtilitiesTests */ = {
 			isa = PBXGroup;
 			children = (
 				F8C2B33E2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.swift */,
 				F8C2B3402196E02A00D42440 /* Info.plist */,
 			);
-			path = ZAPFoundationUIKitUtilitiesTests;
-			sourceTree = "<group>";
-		};
-		F8CD2D2C224CCDA000F01EDE /* ZAPStaticTableViewDemo */ = {
-			isa = PBXGroup;
-			children = (
-				F8CD2D2D224CCDA000F01EDE /* AppDelegate.swift */,
-				F8CD2D3D224D21E300F01EDE /* ZAPStaticDemoController.swift */,
-				F8CD2D31224CCDA000F01EDE /* Main.storyboard */,
-				F8CD2D34224CCDA400F01EDE /* Assets.xcassets */,
-				F8CD2D36224CCDA400F01EDE /* LaunchScreen.storyboard */,
-				F8CD2D39224CCDA400F01EDE /* Info.plist */,
-			);
-			path = ZAPStaticTableViewDemo;
+			path = ZAPAppleUtilitiesTests;
 			sourceTree = "<group>";
 		};
 		F8CD2D3F224D22A800F01EDE /* Frameworks */ = {
@@ -257,9 +177,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F8C2B32F2196E02A00D42440 /* ZAPFoundationUIKitUtilities */ = {
+		F8C2B32F2196E02A00D42440 /* ZAPAppleUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8C2B3442196E02A00D42440 /* Build configuration list for PBXNativeTarget "ZAPFoundationUIKitUtilities" */;
+			buildConfigurationList = F8C2B3442196E02A00D42440 /* Build configuration list for PBXNativeTarget "ZAPAppleUtilities" */;
 			buildPhases = (
 				F8C2B32B2196E02A00D42440 /* Headers */,
 				F8C2B32C2196E02A00D42440 /* Sources */,
@@ -271,14 +191,14 @@
 			);
 			dependencies = (
 			);
-			name = ZAPFoundationUIKitUtilities;
+			name = ZAPAppleUtilities;
 			productName = ZAPFoundationUIKitUtilities;
-			productReference = F8C2B3302196E02A00D42440 /* ZAPFoundationUIKitUtilities.framework */;
+			productReference = F8C2B3302196E02A00D42440 /* ZAPAppleUtilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F8C2B3382196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests */ = {
+		F8C2B3382196E02A00D42440 /* ZAPAppleUtilitiesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8C2B3472196E02A00D42440 /* Build configuration list for PBXNativeTarget "ZAPFoundationUIKitUtilitiesTests" */;
+			buildConfigurationList = F8C2B3472196E02A00D42440 /* Build configuration list for PBXNativeTarget "ZAPAppleUtilitiesTests" */;
 			buildPhases = (
 				F8C2B3352196E02A00D42440 /* Sources */,
 				F8C2B3362196E02A00D42440 /* Frameworks */,
@@ -289,27 +209,10 @@
 			dependencies = (
 				F8C2B33C2196E02A00D42440 /* PBXTargetDependency */,
 			);
-			name = ZAPFoundationUIKitUtilitiesTests;
+			name = ZAPAppleUtilitiesTests;
 			productName = ZAPFoundationUIKitUtilitiesTests;
-			productReference = F8C2B3392196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.xctest */;
+			productReference = F8C2B3392196E02A00D42440 /* ZAPAppleUtilitiesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F8CD2D2A224CCDA000F01EDE /* ZAPStaticTableViewDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8CD2D3C224CCDA400F01EDE /* Build configuration list for PBXNativeTarget "ZAPStaticTableViewDemo" */;
-			buildPhases = (
-				F8CD2D27224CCDA000F01EDE /* Sources */,
-				F8CD2D28224CCDA000F01EDE /* Frameworks */,
-				F8CD2D29224CCDA000F01EDE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ZAPStaticTableViewDemo;
-			productName = ZAPStaticTableViewDemo;
-			productReference = F8CD2D2B224CCDA000F01EDE /* ZAPStaticTableViewDemo.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -317,8 +220,9 @@
 		F8C2B3272196E02A00D42440 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Zozi Apps";
 				TargetAttributes = {
 					F8C2B32F2196E02A00D42440 = {
@@ -329,12 +233,9 @@
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1020;
 					};
-					F8CD2D2A224CCDA000F01EDE = {
-						CreatedOnToolsVersion = 10.1;
-					};
 				};
 			};
-			buildConfigurationList = F8C2B32A2196E02A00D42440 /* Build configuration list for PBXProject "ZAPFoundationUIKitUtilities" */;
+			buildConfigurationList = F8C2B32A2196E02A00D42440 /* Build configuration list for PBXProject "ZAPAppleUtilities" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -348,9 +249,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8C2B32F2196E02A00D42440 /* ZAPFoundationUIKitUtilities */,
-				F8C2B3382196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests */,
-				F8CD2D2A224CCDA000F01EDE /* ZAPStaticTableViewDemo */,
+				F8C2B32F2196E02A00D42440 /* ZAPAppleUtilities */,
+				F8C2B3382196E02A00D42440 /* ZAPAppleUtilitiesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -371,16 +271,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8CD2D29224CCDA000F01EDE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8CD2D38224CCDA400F01EDE /* LaunchScreen.storyboard in Resources */,
-				F8CD2D35224CCDA400F01EDE /* Assets.xcassets in Resources */,
-				F8CD2D33224CCDA000F01EDE /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -389,36 +279,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B215E921B959B3002B6210 /* NSAttributedStringUtilities.swift in Sources */,
-				F8AC239623C23C1400820A53 /* UISplitViewControllerUtilities.swift in Sources */,
 				F8C2B34F2196E0C900D42440 /* URLUtilities.swift in Sources */,
-				F841C33E264919E5001DF01B /* UIStoryboardSegueUtilities.swift in Sources */,
-				F8AC29B922AB1C92009E4D2E /* UIColorUtilities.swift in Sources */,
-				F8E32BAD22572D01000D51E5 /* DeviceUtilities.swift in Sources */,
 				F82530892549C97F00810F6C /* DataUtilities.swift in Sources */,
-				F88852FE22A904DD00B5BE6E /* UIButtonUtilities.swift in Sources */,
 				F8C2B34E2196E0C900D42440 /* NSRegularExpressionUtilities.swift in Sources */,
-				F83362CE238E519D00830DBE /* UITableViewUtilities.swift in Sources */,
-				F810493C21E6921F00CE6787 /* UIViewControllerUtilities.swift in Sources */,
 				F8FB3689219B5C06003E02B1 /* NotificationCenterUtilities.swift in Sources */,
 				F8B2B64C2677798C008A96C3 /* ZAPStoreCoordinator.swift in Sources */,
 				F8C56CD621C26C7000F1921E /* BundleUtilities.swift in Sources */,
 				F8B53B04228933B8005BB95B /* URLSessionUtilities.swift in Sources */,
 				F880D7FE2993E769004C54F8 /* ZAPBuildCoordinator.swift in Sources */,
-				F81C34F7268F026C00D0FF9B /* CVPixelBufferUtilities.swift in Sources */,
 				F8FB3687219B50A3003E02B1 /* URLRequestUtilities.swift in Sources */,
 				F82A966F274D1CC300016848 /* FileManagerUtilities.swift in Sources */,
-				F80A856821C5B0F500B5771B /* UIBarButtonItemUtilities.swift in Sources */,
 				F8C2B34D2196E0C900D42440 /* StringUtilities.swift in Sources */,
 				F8C2B3732198C50200D42440 /* DateUtilities.swift in Sources */,
 				F8C90071298D3D4C00317D64 /* ZAPStore2Coordinator.swift in Sources */,
 				F8EC06252325181E00392801 /* ArrayUtilities.swift in Sources */,
-				F817E6AC25B6CD4100DF8EE5 /* UIViewUtilities.swift in Sources */,
-				F80A856221C50B1000B5771B /* WKWebViewUtilities.swift in Sources */,
 				F84C9D78227B34EF00ECAC0C /* URLResponseUtilities.swift in Sources */,
-				F8A349A0237E7D9800D6C5E2 /* ZAPClickableTableViewTextView.swift in Sources */,
 				F8CD80BA22B247250025B1A8 /* ZAPError.swift in Sources */,
-				F80B9B6022A4ED1200E4EC88 /* UIImageUtilities.swift in Sources */,
-				F8C2B35B2197042900D42440 /* ZAPStaticTableViewController.swift in Sources */,
 				F8F92246272007FE0076B564 /* Keychain.swift in Sources */,
 				F8703DF528042AF400B23263 /* NetworkCheck.swift in Sources */,
 			);
@@ -432,45 +308,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8CD2D27224CCDA000F01EDE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8CD2D3E224D21E300F01EDE /* ZAPStaticDemoController.swift in Sources */,
-				F8CD2D2E224CCDA000F01EDE /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		F8C2B33C2196E02A00D42440 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8C2B32F2196E02A00D42440 /* ZAPFoundationUIKitUtilities */;
+			target = F8C2B32F2196E02A00D42440 /* ZAPAppleUtilities */;
 			targetProxy = F8C2B33B2196E02A00D42440 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F8CD2D31224CCDA000F01EDE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8B2B663267780A8008A96C3 /* de */,
-				F8B2B669267780BA008A96C3 /* de */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F8CD2D36224CCDA400F01EDE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8B2B664267780A8008A96C3 /* de */,
-				F8B2B66A267780BB008A96C3 /* de */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F8C2B3422196E02A00D42440 /* Debug */ = {
@@ -611,6 +457,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = ZAPFoundationUIKitUtilities/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -619,9 +466,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.zoziapps.ZAPFoundationUIKitUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -640,6 +492,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = ZAPFoundationUIKitUtilities/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -648,9 +501,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.zoziapps.ZAPFoundationUIKitUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -694,46 +552,10 @@
 			};
 			name = Release;
 		};
-		F8CD2D3A224CCDA400F01EDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3X3L9Z8E6B;
-				INFOPLIST_FILE = ZAPStaticTableViewDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.zoziapps.ZAPStaticTableViewDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F8CD2D3B224CCDA400F01EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3X3L9Z8E6B;
-				INFOPLIST_FILE = ZAPStaticTableViewDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.zoziapps.ZAPStaticTableViewDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8C2B32A2196E02A00D42440 /* Build configuration list for PBXProject "ZAPFoundationUIKitUtilities" */ = {
+		F8C2B32A2196E02A00D42440 /* Build configuration list for PBXProject "ZAPAppleUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8C2B3422196E02A00D42440 /* Debug */,
@@ -742,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8C2B3442196E02A00D42440 /* Build configuration list for PBXNativeTarget "ZAPFoundationUIKitUtilities" */ = {
+		F8C2B3442196E02A00D42440 /* Build configuration list for PBXNativeTarget "ZAPAppleUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8C2B3452196E02A00D42440 /* Debug */,
@@ -751,20 +573,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8C2B3472196E02A00D42440 /* Build configuration list for PBXNativeTarget "ZAPFoundationUIKitUtilitiesTests" */ = {
+		F8C2B3472196E02A00D42440 /* Build configuration list for PBXNativeTarget "ZAPAppleUtilitiesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8C2B3482196E02A00D42440 /* Debug */,
 				F8C2B3492196E02A00D42440 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8CD2D3C224CCDA400F01EDE /* Build configuration list for PBXNativeTarget "ZAPStaticTableViewDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8CD2D3A224CCDA400F01EDE /* Debug */,
-				F8CD2D3B224CCDA400F01EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

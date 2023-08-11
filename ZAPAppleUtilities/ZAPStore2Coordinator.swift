@@ -17,7 +17,7 @@ public enum StoreError: Error {
 	}
 }
 
-@available(iOS 15.0, *)
+@available(iOS 15.0, macOS 12.0, *)
 open class ZAPStore2Coordinator: ObservableObject {
 		
 	typealias RenewalInfo = StoreKit.Product.SubscriptionInfo.RenewalInfo
