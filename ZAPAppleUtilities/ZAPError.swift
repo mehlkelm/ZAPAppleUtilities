@@ -9,6 +9,7 @@
 import Foundation
 
 public struct ZAPError: LocalizedError, Identifiable {
+	
     public var id = UUID()
     
     public var message: String?

@@ -17,7 +17,7 @@
 		F8B2B64C2677798C008A96C3 /* ZAPStoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2B64B2677798C008A96C3 /* ZAPStoreCoordinator.swift */; };
 		F8B53B04228933B8005BB95B /* URLSessionUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B53B03228933B8005BB95B /* URLSessionUtilities.swift */; };
 		F8C2B33A2196E02A00D42440 /* ZAPAppleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C2B3302196E02A00D42440 /* ZAPAppleUtilities.framework */; };
-		F8C2B33F2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B33E2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.swift */; };
+		F8C2B33F2196E02A00D42440 /* ZAPAppleUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B33E2196E02A00D42440 /* ZAPAppleUtilitiesTests.swift */; };
 		F8C2B34D2196E0C900D42440 /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B34A2196E0C800D42440 /* StringUtilities.swift */; };
 		F8C2B34E2196E0C900D42440 /* NSRegularExpressionUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B34B2196E0C800D42440 /* NSRegularExpressionUtilities.swift */; };
 		F8C2B34F2196E0C900D42440 /* URLUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C2B34C2196E0C800D42440 /* URLUtilities.swift */; };
@@ -67,7 +67,7 @@
 		F8C2B3302196E02A00D42440 /* ZAPAppleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZAPAppleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C2B3342196E02A00D42440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8C2B3392196E02A00D42440 /* ZAPAppleUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZAPAppleUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8C2B33E2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAPFoundationUIKitUtilitiesTests.swift; sourceTree = "<group>"; };
+		F8C2B33E2196E02A00D42440 /* ZAPAppleUtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAPAppleUtilitiesTests.swift; sourceTree = "<group>"; };
 		F8C2B3402196E02A00D42440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8C2B34A2196E0C800D42440 /* StringUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtilities.swift; sourceTree = "<group>"; };
 		F8C2B34B2196E0C800D42440 /* NSRegularExpressionUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRegularExpressionUtilities.swift; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		F8C2B33D2196E02A00D42440 /* ZAPAppleUtilitiesTests */ = {
 			isa = PBXGroup;
 			children = (
-				F8C2B33E2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.swift */,
+				F8C2B33E2196E02A00D42440 /* ZAPAppleUtilitiesTests.swift */,
 				F8C2B3402196E02A00D42440 /* Info.plist */,
 			);
 			path = ZAPAppleUtilitiesTests;
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8C2B33F2196E02A00D42440 /* ZAPFoundationUIKitUtilitiesTests.swift in Sources */,
+				F8C2B33F2196E02A00D42440 /* ZAPAppleUtilitiesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +357,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -373,7 +374,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,6 +425,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -433,7 +436,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -458,7 +462,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
-				INFOPLIST_FILE = ZAPFoundationUIKitUtilities/Info.plist;
+				INFOPLIST_FILE = ZAPAppleUtilities/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +472,7 @@
 				);
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.zoziapps.ZAPFoundationUIKitUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.zoziapps.ZAPAppleUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -493,7 +497,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
-				INFOPLIST_FILE = ZAPFoundationUIKitUtilities/Info.plist;
+				INFOPLIST_FILE = ZAPAppleUtilities/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,7 +507,7 @@
 				);
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.zoziapps.ZAPFoundationUIKitUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.zoziapps.ZAPAppleUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";

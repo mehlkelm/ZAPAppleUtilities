@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ZAPFoundationUIKitUtilities
+@testable import ZAPAppleUtilities
 
 class ZAPFoundationUIKitUtilitiesTests: XCTestCase {
 
